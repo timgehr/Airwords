@@ -58,7 +58,18 @@ export default Vue.extend({
       var str = "";
       for (var n = 0; n < hex.length; n += 2) {
         var strTemp = String.fromCharCode((parseInt(hex.substr(n, 2), 16) % 89) + 33);
-        if (str === "/" || str === "\\" || str === "`" || str === "," || str === ".") {
+        if (strTemp === "/" 
+        || strTemp === "\\" 
+        || strTemp === "`" 
+        || strTemp === "," 
+        || strTemp === "."
+        || strTemp === ":"
+        || strTemp === "["
+        || strTemp === "]"
+        || strTemp === ";"
+        || strTemp === "{"
+        || strTemp === "}"
+        ) {
           strTemp = "";
         }
         str += strTemp
