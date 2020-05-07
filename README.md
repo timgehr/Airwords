@@ -1,4 +1,4 @@
-# secretknock
+# Airwords Password generator
 
 ## Project setup
 ```
