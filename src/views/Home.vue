@@ -119,7 +119,7 @@ export default Vue.extend({
 }
 
 #topbar {
-  background: rgb(0, 115, 223);
+  background: #0073df;
   height: 80px;
   min-width: 100vw;
   margin-bottom: 40px;
