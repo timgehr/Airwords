@@ -1,29 +1,12 @@
-# Airwords Password generator
+# *Airwords* Password Generator
 
-## Project setup
-```
-npm install
-```
+Airwords is a password generator that generates extremely secure passwords by hasing the name of the website you're accessing over one password that you can remember. What's the benefit? It never saves any of your passwords. Anywhere. *Ever*. Airwords can't have a password leak because your password is only accessable from your brain. Just like other password services, you only need to remember one password to access all the unique passwords for your services.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+An electron-based desktop app for offline access
+![Desktop](desktop.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+A Web Extension for google chrome for quick access to your passwords
+![Chrome Extension](extension.png)
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A webapp for mobile and other browsers that don't support the extension
+![Webapp](webapp.png)
